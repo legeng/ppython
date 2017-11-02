@@ -48,7 +48,7 @@ function ppython()
 
     $request = $req_len.",".$request;
 
-    echo "{$request}<br>";
+    //echo "{$request}<br>"; 这是序列化后的请求数据
 
     $send_len = 0;
     do

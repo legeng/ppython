@@ -10,4 +10,4 @@ def go(a) :
 	#cur.execute(sql);
 	#r=cur.fetchall();
 	
-	return {'name':'ligen','age':26}
+	return a
