@@ -3,7 +3,7 @@
 
 #import MySQLdb
 
-def go() :
+def go(a) :
 	#conn=MySQLdb.connect(host='localhost', user='root', passwd='root123.', db='test') ;
 	#cur=conn.cursor();
 	#sql="show tables;"

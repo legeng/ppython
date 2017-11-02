@@ -15,7 +15,7 @@ import php_python
 REQUEST_MIN_LEN = 10    #合法的request消息包最小长度
 TIMEOUT = 180           #socket处理时间180秒
 
-pc_dict = {cdn}        #预编译字典，key:调用模块、函数、参数字符串，值是编译对象
+pc_dict = {}        #预编译字典，key:调用模块、函数、参数字符串，值是编译对象
 global_env = {}     #global环境变量
 
 def index(bytes, c, pos=0):
